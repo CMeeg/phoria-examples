@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "name": "_root",
+      "path": ".",
+      
+    },
+    {
+      "name": "framework-multiple",
+      "path": "examples/framework-multiple"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "examples/": true
+    }
+  }
+}

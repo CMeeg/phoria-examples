@@ -1,0 +1,45 @@
+{
+	"name": "webapp",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"build": "run-p build:phoria build:server -c",
+		"build:phoria": "run-p build:phoria:* -c",
+		"build:phoria:client": "vite build --manifest --ssrManifest --emptyOutDir --outDir dist/phoria/client",
+		"build:phoria:server": "vite build --ssr src/entry-server.ts --emptyOutDir --outDir dist/phoria/server",
+		"build:server": "vite build --config vite.server.config.ts --ssr src/server.ts --emptyOutDir --outDir dist/server",
+		"check": "tsc",
+		"dev": "tsx ./ui/src/server.ts",
+		"lint": "biome check",
+		"start": "cross-env NODE_ENV=production DOTNET_ENVIRONMENT=production node ./ui/dist/server/server.js"
+	},
+	"dependencies": {
+		"@phoria/phoria": "0.1.0",
+		"@phoria/phoria-react": "0.1.1",
+		"@phoria/phoria-svelte": "0.1.0",
+		"@phoria/phoria-vue": "0.1.0",
+		"h3": "^1.13.0",
+		"listhen": "^1.9.0",
+		"react": "npm:react@rc",
+		"react-dom": "npm:react-dom@rc",
+		"svelte": "^5.1.3",
+		"vue": "^3.5.12"
+	},
+	"devDependencies": {
+		"@phoria/vite-plugin-dotnet-dev-certs": "0.1.0",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"@types/node": "^22.8.7",
+		"@types/react": "npm:types-react@rc",
+		"@types/react-dom": "npm:types-react-dom@rc",
+		"@vitejs/plugin-react": "^4.3.3",
+		"@vitejs/plugin-vue": "^5.0.3",
+		"cross-env": "^7.0.3",
+		"npm-run-all": "^4.1.5",
+		"postcss-preset-env": "^10.0.8",
+		"tsx": "^4.19.2",
+		"typescript": "~5.6.2",
+		"vite": "^5.4.9",
+		"vite-tsconfig-paths": "^5.0.1"
+	}
+}

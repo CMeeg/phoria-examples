@@ -1,0 +1,12 @@
+<Project>
+
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.10" />
+		<PackageVersion Include="Phoria" Version="0.1.1" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+.azure/
+.nuget/
+.nx/cache
+.nx/workspace-data
+bin/
+dist/
+node_modules/
+obj/
+
+*.tmp
+*.tsbuildinfo
+lerna-debug.log
+TODO.md
+vite.config.ts.*
