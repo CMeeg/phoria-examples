@@ -8,6 +8,10 @@
     {
       "name": "framework-multiple",
       "path": "examples/framework-multiple"
+    },
+    {
+      "name": "getting-started",
+      "path": "examples/getting-started"
     }
   ],
   "settings": {
