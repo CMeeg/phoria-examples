@@ -19,8 +19,4 @@
 		<Content Include="tsconfig.*.json" CopyToOutputDirectory="Never" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<Folder Include="wwwroot\" />
-	</ItemGroup>
-
 </Project>

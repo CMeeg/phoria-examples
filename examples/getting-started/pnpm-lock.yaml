@@ -31,8 +31,8 @@ importers:
         specifier: ^9.15.0
         version: 9.16.0
       '@phoria/vite-plugin-dotnet-dev-certs':
-        specifier: ^0.1.0
-        version: 0.1.0(vite@5.4.11(@types/node@22.10.1))
+        specifier: ^0.1.1
+        version: 0.1.1(vite@5.4.11(@types/node@22.10.1))
       '@types/node':
         specifier: ^22.10.1
         version: 22.10.1
@@ -630,8 +630,8 @@ packages:
     peerDependencies:
       vite: ^5.0.0
 
-  '@phoria/vite-plugin-dotnet-dev-certs@0.1.0':
-    resolution: {integrity: sha512-1pcP9KqXzdPpO0jB9yJhPZcQMx1bK9P9Ff2d3CLkOFRrQDzS8dSC4Jn1t7/K4ZV7VTR4hwmpnZNkIVYwV8enjw==}
+  '@phoria/vite-plugin-dotnet-dev-certs@0.1.1':
+    resolution: {integrity: sha512-XcORL1wnRMz8e/oXOhfryDB6EwoGvnKBwDlld9PEJy5Rwj1jazUEeZWtDHInFhFxRUNzwcYmVZOOxpylPVYthg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       vite: ^5.0.0
@@ -2368,7 +2368,7 @@ snapshots:
       mime: 4.0.4
       vite: 5.4.11(@types/node@22.10.1)
 
-  '@phoria/vite-plugin-dotnet-dev-certs@0.1.0(vite@5.4.11(@types/node@22.10.1))':
+  '@phoria/vite-plugin-dotnet-dev-certs@0.1.1(vite@5.4.11(@types/node@22.10.1))':
     dependencies:
       destr: 2.0.3
       empathic: 1.0.0

@@ -9,11 +9,5 @@
 	},
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"[xml]": {
-		"editor.defaultFormatter": "DotJoshJohnson.xml"
-	},
-	"[yaml]": {
-		"editor.defaultFormatter": "redhat.vscode-yaml"
 	}
 }
