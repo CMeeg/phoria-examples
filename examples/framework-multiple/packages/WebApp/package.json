@@ -15,10 +15,10 @@
 		"start": "cross-env NODE_ENV=production DOTNET_ENVIRONMENT=production node ./ui/dist/server/server.js"
 	},
 	"dependencies": {
-		"@phoria/phoria": "0.1.0",
-		"@phoria/phoria-react": "0.1.1",
-		"@phoria/phoria-svelte": "0.1.0",
-		"@phoria/phoria-vue": "0.1.0",
+		"@phoria/phoria": "^0.2.0",
+		"@phoria/phoria-react": "^0.1.1",
+		"@phoria/phoria-svelte": "^0.1.0",
+		"@phoria/phoria-vue": "^0.1.0",
 		"h3": "^1.13.0",
 		"listhen": "^1.9.0",
 		"react": "npm:react@rc",
@@ -27,12 +27,12 @@
 		"vue": "^3.5.12"
 	},
 	"devDependencies": {
-		"@phoria/vite-plugin-dotnet-dev-certs": "0.1.0",
+		"@phoria/vite-plugin-dotnet-dev-certs": "0.1.1",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@types/node": "^22.8.7",
 		"@types/react": "npm:types-react@rc",
 		"@types/react-dom": "npm:types-react-dom@rc",
-		"@vitejs/plugin-react": "^4.3.3",
+		"@vitejs/plugin-react": "^4.3.4",
 		"@vitejs/plugin-vue": "^5.0.3",
 		"cross-env": "^7.0.3",
 		"npm-run-all": "^4.1.5",
