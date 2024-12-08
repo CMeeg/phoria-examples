@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@phoria/phoria": "^0.1.1",
+    "@phoria/phoria": "^0.2.0",
     "@phoria/phoria-react": "^0.1.1",
     "h3": "^1.13.0",
     "listhen": "^1.9.0",
