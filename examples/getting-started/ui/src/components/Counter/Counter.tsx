@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './Counter.css'
 
 function Counter() {
   const [count, setCount] = useState(0)
@@ -22,7 +22,7 @@ function Counter() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Edit <code>ui/src/components/Counter/Counter.tsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
