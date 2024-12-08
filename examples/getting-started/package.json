@@ -11,18 +11,18 @@
   },
   "dependencies": {
     "@phoria/phoria": "^0.2.0",
-    "@phoria/phoria-react": "^0.1.1",
+    "@phoria/phoria-react": "^0.2.0",
     "h3": "^1.13.0",
     "listhen": "^1.9.0",
-    "react": "19.0.0-rc.1",
-    "react-dom": "19.0.0-rc.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
     "@phoria/vite-plugin-dotnet-dev-certs": "^0.1.1",
     "@types/node": "^22.10.1",
-    "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.15.0",
     "eslint-plugin-react": "^7.37.2",

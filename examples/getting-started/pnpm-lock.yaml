@@ -12,8 +12,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0(vite@5.4.11(@types/node@22.10.1))
       '@phoria/phoria-react':
-        specifier: ^0.1.1
-        version: 0.1.1(@phoria/phoria@0.2.0(vite@5.4.11(@types/node@22.10.1)))(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@22.10.1)))(react-dom@19.0.0-rc.1(react@19.0.0-rc.1))(react@19.0.0-rc.1)(rollup@4.28.0)(types-react-dom@19.0.0-rc.1)(types-react@19.0.0-rc.1)(vite@5.4.11(@types/node@22.10.1))
+        specifier: ^0.2.0
+        version: 0.2.0(@phoria/phoria@0.2.0(vite@5.4.11(@types/node@22.10.1)))(@types/react-dom@19.0.1)(@types/react@19.0.1)(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@22.10.1)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.28.0)(vite@5.4.11(@types/node@22.10.1))
       h3:
         specifier: ^1.13.0
         version: 1.13.0
@@ -21,11 +21,11 @@ importers:
         specifier: ^1.9.0
         version: 1.9.0
       react:
-        specifier: 19.0.0-rc.1
-        version: 19.0.0-rc.1
+        specifier: ^19.0.0
+        version: 19.0.0
       react-dom:
-        specifier: 19.0.0-rc.1
-        version: 19.0.0-rc.1(react@19.0.0-rc.1)
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.15.0
@@ -37,11 +37,11 @@ importers:
         specifier: ^22.10.1
         version: 22.10.1
       '@types/react':
-        specifier: npm:types-react@19.0.0-rc.1
-        version: types-react@19.0.0-rc.1
+        specifier: ^19.0.0
+        version: 19.0.1
       '@types/react-dom':
-        specifier: npm:types-react-dom@19.0.0-rc.1
-        version: types-react-dom@19.0.0-rc.1
+        specifier: ^19.0.0
+        version: 19.0.1
       '@vitejs/plugin-react':
         specifier: ^4.3.4
         version: 4.3.4(vite@5.4.11(@types/node@22.10.1))
@@ -612,16 +612,16 @@ packages:
     resolution: {integrity: sha512-i0GV1yJnm2n3Yq1qw6QrUrd/LI9bE8WEBOTtOkpCXHHdyN3TAGgqAK/DAT05z4fq2x04cARXt2pDmjWjL92iTQ==}
     engines: {node: '>= 10.0.0'}
 
-  '@phoria/phoria-react@0.1.1':
-    resolution: {integrity: sha512-8aIQQH8K6GLC0sPg/G+7GJyJv/a037o/7PHVEI0w2d0soEFMYRD00Qtw49i6MaZGZ6HPe43KZHUYa9kOyWo3ig==}
+  '@phoria/phoria-react@0.2.0':
+    resolution: {integrity: sha512-bJj6xBVX1MV+vG/+d2fcIxlX6EI4y7ZmOsqjTaMtJYMRh9qcYbOfzRfZlOy4Jd60rMlrbpuQaWhvX3eXWirH0w==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
-      '@phoria/phoria': ^0.1.0
-      '@types/react': npm:types-react@^19.0.0-rc.1
-      '@types/react-dom': npm:types-react-dom@^19.0.0-rc.1
+      '@phoria/phoria': ~0.2.0
+      '@types/react': ^19.0.0
+      '@types/react-dom': ^19.0.0
       '@vitejs/plugin-react': ^4.0.0
-      react: ^19.0.0-rc
-      react-dom: ^19.0.0-rc
+      react: ^19.0.0
+      react-dom: ^19.0.0
       vite: ^5.0.0
 
   '@phoria/phoria@0.2.0':
@@ -756,11 +756,11 @@ packages:
   '@types/node@22.10.1':
     resolution: {integrity: sha512-qKgsUwfHZV2WCWLAnVP1JqnpE6Im6h3Y0+fYgMTasNQ7V++CBX5OT1as0g0f+OyubbFqhf6XVNIsmN4IIhEgGQ==}
 
-  '@types/prop-types@15.7.14':
-    resolution: {integrity: sha512-gNMvNH49DJ7OJYv+KAKn0Xp45p8PLl6zo2YnvDIbTd4J6MER2BmWN49TG7n9LvkyihINxeKW8+3bfS2yDC9dzQ==}
+  '@types/react-dom@19.0.1':
+    resolution: {integrity: sha512-hljHij7MpWPKF6u5vojuyfV0YA4YURsQG7KT6SzV0Zs2BXAtgdTxG6A229Ub/xiWV4w/7JL8fi6aAyjshH4meA==}
 
-  '@types/react@18.3.14':
-    resolution: {integrity: sha512-NzahNKvjNhVjuPBQ+2G7WlxstQ+47kXZNHlUvFakDViuIEfGY926GqhMueQFZ7woG+sPiQKlF36XfrIUVSUfFg==}
+  '@types/react@19.0.1':
+    resolution: {integrity: sha512-YW6614BDhqbpR5KtUYzTA+zlA7nayzJRA9ljz9CQoxthR0sDisYZLuvSMsil36t4EH/uAt8T52Xb4sVw17G+SQ==}
 
   '@typescript-eslint/eslint-plugin@8.17.0':
     resolution: {integrity: sha512-HU1KAdW3Tt8zQkdvNoIijfWDMvdSweFYm4hWh+KwhPstv+sCmWb89hCIP8msFm9N1R/ooh9honpSuvqKWlYy3w==}
@@ -1650,10 +1650,10 @@ packages:
   radix3@1.1.2:
     resolution: {integrity: sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA==}
 
-  react-dom@19.0.0-rc.1:
-    resolution: {integrity: sha512-k8MfDX+4G+eaa1cXXI9QF4d+pQtYol3nx8vauqRWUEOPqC7NQn2qmEqUsLoSd28rrZUL+R3T2VC+kZ2Hyx1geQ==}
+  react-dom@19.0.0:
+    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
     peerDependencies:
-      react: 19.0.0-rc.1
+      react: ^19.0.0
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -1662,8 +1662,8 @@ packages:
     resolution: {integrity: sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==}
     engines: {node: '>=0.10.0'}
 
-  react@19.0.0-rc.1:
-    resolution: {integrity: sha512-NZKln+uyPuyHchzP07I6GGYFxdAoaKhehgpCa3ltJGzwE31OYumLeshGaitA1R/fS5d9D2qpZVwTFAr6zCLM9w==}
+  react@19.0.0:
+    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
     engines: {node: '>=0.10.0'}
 
   reflect.getprototypeof@1.0.7:
@@ -1705,8 +1705,8 @@ packages:
     resolution: {integrity: sha512-CdASjNJPvRa7roO6Ra/gLYBTzYzzPyyBXxIMdGW3USQLyjWEls2RgW5UBTXaQVp+OrpeCK3bLem8smtmheoRuw==}
     engines: {node: '>= 0.4'}
 
-  scheduler@0.25.0-rc.1:
-    resolution: {integrity: sha512-fVinv2lXqYpKConAMdergOl5owd0rY1O4P/QTe0aWKCqGtu7VsCt1iqQFxSJtqK4Lci/upVSBpGwVC7eWcuS9Q==}
+  scheduler@0.25.0:
+    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -1823,12 +1823,6 @@ packages:
   typed-array-length@1.0.7:
     resolution: {integrity: sha512-3KS2b+kL7fsuk/eJZ7EQdnEmQoaho/r6KUef7hxvltNA5DR8NAUM+8wJMbJyZ4G9/7i3v5zPBIMN5aybAh2/Jg==}
     engines: {node: '>= 0.4'}
-
-  types-react-dom@19.0.0-rc.1:
-    resolution: {integrity: sha512-VSLZJl8VXCD0fAWp7DUTFUDCcZ8DVXOQmjhJMD03odgeFmu14ZQJHCXeETm3BEAhJqfgJaFkLnGkQv88sRx0fQ==}
-
-  types-react@19.0.0-rc.1:
-    resolution: {integrity: sha512-RshndUfqTW6K3STLPis8BtAYCGOkMbtvYsi90gmVNDZBXUyUc5juf2PE9LfS/JmOlUIRO8cWTS/1MTnmhjDqyQ==}
 
   typescript-eslint@8.17.0:
     resolution: {integrity: sha512-409VXvFd/f1br1DCbuKNFqQpXICoTB+V51afcwG1pn1a3Cp92MqAUges3YjwEdQ0cMUoCIodjVDAYzyD8h3SYA==}
@@ -2345,16 +2339,16 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.5.0
       '@parcel/watcher-win32-x64': 2.5.0
 
-  '@phoria/phoria-react@0.1.1(@phoria/phoria@0.2.0(vite@5.4.11(@types/node@22.10.1)))(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@22.10.1)))(react-dom@19.0.0-rc.1(react@19.0.0-rc.1))(react@19.0.0-rc.1)(rollup@4.28.0)(types-react-dom@19.0.0-rc.1)(types-react@19.0.0-rc.1)(vite@5.4.11(@types/node@22.10.1))':
+  '@phoria/phoria-react@0.2.0(@phoria/phoria@0.2.0(vite@5.4.11(@types/node@22.10.1)))(@types/react-dom@19.0.1)(@types/react@19.0.1)(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@22.10.1)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.28.0)(vite@5.4.11(@types/node@22.10.1))':
     dependencies:
       '@phoria/phoria': 0.2.0(vite@5.4.11(@types/node@22.10.1))
       '@rollup/pluginutils': 5.1.3(rollup@4.28.0)
-      '@types/react': types-react@19.0.0-rc.1
-      '@types/react-dom': types-react-dom@19.0.0-rc.1
+      '@types/react': 19.0.1
+      '@types/react-dom': 19.0.1
       '@vitejs/plugin-react': 4.3.4(vite@5.4.11(@types/node@22.10.1))
       magic-string: 0.30.14
-      react: 19.0.0-rc.1
-      react-dom: 19.0.0-rc.1(react@19.0.0-rc.1)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
       vite: 5.4.11(@types/node@22.10.1)
     transitivePeerDependencies:
       - rollup
@@ -2466,11 +2460,12 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/prop-types@15.7.14': {}
-
-  '@types/react@18.3.14':
+  '@types/react-dom@19.0.1':
     dependencies:
-      '@types/prop-types': 15.7.14
+      '@types/react': 19.0.1
+
+  '@types/react@19.0.1':
+    dependencies:
       csstype: 3.1.3
 
   '@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@9.16.0(jiti@2.4.1))(typescript@5.6.3))(eslint@9.16.0(jiti@2.4.1))(typescript@5.6.3)':
@@ -3541,16 +3536,16 @@ snapshots:
 
   radix3@1.1.2: {}
 
-  react-dom@19.0.0-rc.1(react@19.0.0-rc.1):
+  react-dom@19.0.0(react@19.0.0):
     dependencies:
-      react: 19.0.0-rc.1
-      scheduler: 0.25.0-rc.1
+      react: 19.0.0
+      scheduler: 0.25.0
 
   react-is@16.13.1: {}
 
   react-refresh@0.14.2: {}
 
-  react@19.0.0-rc.1: {}
+  react@19.0.0: {}
 
   reflect.getprototypeof@1.0.7:
     dependencies:
@@ -3622,7 +3617,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.2.0
 
-  scheduler@0.25.0-rc.1: {}
+  scheduler@0.25.0: {}
 
   semver@6.3.1: {}
 
@@ -3767,14 +3762,6 @@ snapshots:
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
       reflect.getprototypeof: 1.0.7
-
-  types-react-dom@19.0.0-rc.1:
-    dependencies:
-      '@types/react': 18.3.14
-
-  types-react@19.0.0-rc.1:
-    dependencies:
-      csstype: 3.1.3
 
   typescript-eslint@8.17.0(eslint@9.16.0(jiti@2.4.1))(typescript@5.6.3):
     dependencies:
