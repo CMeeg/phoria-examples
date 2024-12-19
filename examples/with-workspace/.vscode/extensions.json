@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"aaron-bond.better-comments",
+		"biomejs.biome",
+		"EditorConfig.EditorConfig",
+		"ms-dotnettools.csdevkit",
+		"svelte.svelte-vscode",
+		"Vue.volar"
+	]
+}

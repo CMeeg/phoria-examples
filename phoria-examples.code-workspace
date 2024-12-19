@@ -12,6 +12,10 @@
     {
       "name": "getting-started",
       "path": "examples/getting-started"
+    },
+    {
+      "name": "with-workspace",
+      "path": "examples/with-workspace"
     }
   ],
   "settings": {
