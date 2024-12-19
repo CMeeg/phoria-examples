@@ -11,7 +11,8 @@ export default defineConfig({
 	publicDir: "public",
 	plugins: [
 		tsconfigPaths({
-			root: "../" // The tsconfig is in the root of the project, not the "Vite root"
+			// The tsconfig is in the root of the project, not the "Vite root"
+			root: "../"
 		}),
 		dotnetDevCerts(),
 		phoria(),

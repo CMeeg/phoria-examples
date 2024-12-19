@@ -7,20 +7,17 @@ export default defineConfig(async () => {
 
 	// https://vite.dev/config/
 	return {
-		root: appsettings.Root,
-		base: appsettings.Base,
+		root: appsettings.root,
+		base: appsettings.base,
 		build: {
+			ssr: true,
 			target: "es2022",
-			copyPublicDir: false
-		},
-		ssr: {
-			// It should only be required to add the `@phoria/phoria*` packages in this workspace - when the packages are published they should be external by default
-			external: [
-				"@phoria/phoria-react/server",
-				"@phoria/phoria-svelte/server",
-				"@phoria/phoria-vue/server",
-				"@phoria/phoria"
-			]
+			copyPublicDir: false,
+			emptyOutDir: true,
+			outDir: `${appsettings.build.outDir}/server`,
+			rollupOptions: {
+				input: `${appsettings.root}/src/server.ts`
+			}
 		}
 	} satisfies UserConfig
 })

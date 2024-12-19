@@ -25,8 +25,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
-app.MapRazorPages()
-    .WithStaticAssets();
+app.MapRazorPages().WithStaticAssets();
 
 // WebSockets are required for the Vite Dev Server's HMR (Hot Module Reload) feature
 if (app.Environment.IsDevelopment())
