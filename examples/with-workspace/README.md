@@ -10,6 +10,7 @@ The example can be run in development or preview (production build) mode.
 
 ```shell
 # Install dependencies
+corepack install
 pnpm install
 
 # Create dotnet dev cert
@@ -29,6 +30,7 @@ dotnet run
 
 ```shell
 # Install dependencies
+corepack install
 pnpm install
 
 # Create dotnet dev cert
