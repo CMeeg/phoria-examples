@@ -17,5 +17,5 @@
 		"sourceMap": true,
 		"target": "ES2022"
 	},
-	"include": ["ui/server.ts"]
+	"include": ["ui/src/server.ts", "vite.config.ts", "vite.server.config.ts"]
 }

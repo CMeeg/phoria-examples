@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.ResponseCompression;
 using Phoria;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.Services.AddResponseCompression(options =>
 {
 	options.EnableForHttps = true;
+	options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(["image/svg+xml"]);
 });
 
 IMvcBuilder mvcBuilder = builder.Services.AddRazorPages();
@@ -25,6 +27,8 @@ WebApplication app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
 	app.UseExceptionHandler("/Error");
+
+	app.UseHsts();
 }
 
 app.UseHttpsRedirection();
@@ -47,7 +51,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapRazorPages();
+app.MapRazorPages().WithStaticAssets();
 
 if (app.Environment.IsDevelopment())
 {
@@ -56,7 +60,6 @@ if (app.Environment.IsDevelopment())
 }
 
 // The order of the Phoria middleware matters so we will place it last
-// TODO: Does the order still matter?
 app.UsePhoria();
 
 app.Run();
