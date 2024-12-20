@@ -16,10 +16,10 @@
 		"preview:phoria": "cross-env NODE_ENV=production DOTNET_ENVIRONMENT=Preview node ./ui/dist/server/server.js"
 	},
 	"dependencies": {
-		"@phoria/phoria": "^0.3.0",
-		"@phoria/phoria-react": "^0.3.0",
-		"@phoria/phoria-svelte": "^0.2.0",
-		"@phoria/phoria-vue": "^0.2.0",
+		"@phoria/phoria": "^0.3.1",
+		"@phoria/phoria-react": "^0.3.1",
+		"@phoria/phoria-svelte": "^0.2.1",
+		"@phoria/phoria-vue": "^0.2.1",
 		"h3": "^1.13.0",
 		"listhen": "^1.9.0",
 		"react": "^19.0.0",

@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@phoria/phoria':
-        specifier: ^0.3.0
-        version: 0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
+        specifier: ^0.3.1
+        version: 0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
       '@phoria/phoria-react':
-        specifier: ^0.3.0
-        version: 0.3.0(@phoria/phoria@0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(@vitejs/plugin-react@4.3.4(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.28.1)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
+        specifier: ^0.3.1
+        version: 0.3.1(@phoria/phoria@0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(@vitejs/plugin-react@4.3.4(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.28.1)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
       '@phoria/phoria-svelte':
-        specifier: ^0.2.0
-        version: 0.2.0(@phoria/phoria@0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(rollup@4.28.1)(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
+        specifier: ^0.2.1
+        version: 0.2.1(@phoria/phoria@0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(rollup@4.28.1)(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
       '@phoria/phoria-vue':
-        specifier: ^0.2.0
-        version: 0.2.0(@phoria/phoria@0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@vitejs/plugin-vue@5.2.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2)))(rollup@4.28.1)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2))
+        specifier: ^0.2.1
+        version: 0.2.1(@phoria/phoria@0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@vitejs/plugin-vue@5.2.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2)))(rollup@4.28.1)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2))
       h3:
         specifier: ^1.13.0
         version: 1.13.0
@@ -813,8 +813,8 @@ packages:
     resolution: {integrity: sha512-i0GV1yJnm2n3Yq1qw6QrUrd/LI9bE8WEBOTtOkpCXHHdyN3TAGgqAK/DAT05z4fq2x04cARXt2pDmjWjL92iTQ==}
     engines: {node: '>= 10.0.0'}
 
-  '@phoria/phoria-react@0.3.0':
-    resolution: {integrity: sha512-3CwpL3XiOdUCVVbvXk0wrN2YAQwL9tdiulNAPHsXl7N7v9H35wh40/EoTQwULN9e4BtPQwV733mua+FC9N28cw==}
+  '@phoria/phoria-react@0.3.1':
+    resolution: {integrity: sha512-liJ4fAJhlk1sWyKcACmSYk7KimkwsCZLfBk069kUyW7OYGg1/RkHijqPZokae0lHfDXhXdrErUUkPRdEEQN9Wg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       '@phoria/phoria': ~0.3.0
@@ -825,8 +825,8 @@ packages:
       react-dom: ^19.0.0
       vite: ^6.0.0
 
-  '@phoria/phoria-svelte@0.2.0':
-    resolution: {integrity: sha512-b+9iw8KDl3DtK5gZKvXZEp7kPma2JHq+QTUkewAqB709MeDlJwdnn5WQS8YJmpkvJSHMtcq3DaBTq5cBOCTqXw==}
+  '@phoria/phoria-svelte@0.2.1':
+    resolution: {integrity: sha512-LaVgiNVnkujk6aITOZYiVrLMr+xBp4ti4VF1NkobfZYTLdTJWAUUYI8IDBmRbTMIZz+jap0sIOm00ad76qEf0Q==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       '@phoria/phoria': ~0.3.0
@@ -834,8 +834,8 @@ packages:
       svelte: ^5.0.0
       vite: ^6.0.0
 
-  '@phoria/phoria-vue@0.2.0':
-    resolution: {integrity: sha512-q6bTw7r86HBKkRKbD+vRAhOdQSu4rmdmFxU9AKMToaCwu2hbmhekzYFkyVEymRT5jw850sH8Tkzkdy16b/CkDQ==}
+  '@phoria/phoria-vue@0.2.1':
+    resolution: {integrity: sha512-lQElEcM9JWzjv3WA8wM3HVIxqbSiBMzwXupGzJ7SCEakjSAuxn5l6bZ1lYgnv2d3rcV9A04ngUIq81Du4NDfpQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       '@phoria/phoria': ~0.3.0
@@ -843,8 +843,8 @@ packages:
       vite: ^6.0.0
       vue: ^3.0.0
 
-  '@phoria/phoria@0.3.0':
-    resolution: {integrity: sha512-zZf3kT3VX08ks0tZd3cZ9+Ng2KGxpjhtDraPiYWgA72/esDEDwxqHHRTxB1xMwNnDqi92GpQQlRPyZHO3WZUnw==}
+  '@phoria/phoria@0.3.1':
+    resolution: {integrity: sha512-ItOu/P2r47hWlilDxZhkiBECuf2HjY4bwngsxW52TtGKSk4xalQzu8lYpMYx1efSohXldo0QFAE+NirzRYnrVg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       vite: ^6.0.0
@@ -2842,9 +2842,9 @@ snapshots:
       '@parcel/watcher-win32-ia32': 2.5.0
       '@parcel/watcher-win32-x64': 2.5.0
 
-  '@phoria/phoria-react@0.3.0(@phoria/phoria@0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(@vitejs/plugin-react@4.3.4(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.28.1)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))':
+  '@phoria/phoria-react@0.3.1(@phoria/phoria@0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(@vitejs/plugin-react@4.3.4(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rollup@4.28.1)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))':
     dependencies:
-      '@phoria/phoria': 0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
+      '@phoria/phoria': 0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
       '@rollup/pluginutils': 5.1.4(rollup@4.28.1)
       '@types/react': 19.0.2
       '@types/react-dom': 19.0.2(@types/react@19.0.2)
@@ -2856,9 +2856,9 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  '@phoria/phoria-svelte@0.2.0(@phoria/phoria@0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(rollup@4.28.1)(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))':
+  '@phoria/phoria-svelte@0.2.1(@phoria/phoria@0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(rollup@4.28.1)(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))':
     dependencies:
-      '@phoria/phoria': 0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
+      '@phoria/phoria': 0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
       '@rollup/pluginutils': 5.1.4(rollup@4.28.1)
       '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.15.0)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
       magic-string: 0.30.17
@@ -2867,9 +2867,9 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  '@phoria/phoria-vue@0.2.0(@phoria/phoria@0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@vitejs/plugin-vue@5.2.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2)))(rollup@4.28.1)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2))':
+  '@phoria/phoria-vue@0.2.1(@phoria/phoria@0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2)))(@vitejs/plugin-vue@5.2.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2)))(rollup@4.28.1)(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2))':
     dependencies:
-      '@phoria/phoria': 0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
+      '@phoria/phoria': 0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))
       '@rollup/pluginutils': 5.1.4(rollup@4.28.1)
       '@vitejs/plugin-vue': 5.2.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))(vue@3.5.13(typescript@5.7.2))
       magic-string: 0.30.17
@@ -2878,7 +2878,7 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  '@phoria/phoria@0.3.0(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))':
+  '@phoria/phoria@0.3.1(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.2)(tsx@4.19.2))':
     dependencies:
       defu: 6.1.4
       destr: 2.0.3
