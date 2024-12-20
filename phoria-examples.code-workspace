@@ -10,6 +10,18 @@
       "path": "examples/framework-multiple"
     },
     {
+      "name": "framework-react",
+      "path": "examples/framework-react"
+    },
+    {
+      "name": "framework-svelte",
+      "path": "examples/framework-svelte"
+    },
+    {
+      "name": "framework-vue",
+      "path": "examples/framework-vue"
+    },
+    {
       "name": "getting-started",
       "path": "examples/getting-started"
     },
