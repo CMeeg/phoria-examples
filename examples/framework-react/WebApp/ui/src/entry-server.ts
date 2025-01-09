@@ -1,5 +1,9 @@
 import "@phoria/phoria-react/server"
 import "./components/register"
-import { serverEntry } from "@phoria/phoria/server"
+import type { PhoriaIsland } from "@phoria/phoria/server"
 
-export { serverEntry }
+async function renderPhoriaIsland(island: PhoriaIsland) {
+	return await island.render()
+}
+
+export { renderPhoriaIsland }
