@@ -1,7 +1,7 @@
-import { isReactIsland } from "@phoria/phoria-react/server";
-import "./components/register";
-import type { PhoriaIsland } from "@phoria/phoria/server";
-import { renderWithStyledComponents } from "./server/ssr";
+import { isReactIsland } from "@phoria/phoria-react/server"
+import "./components/register"
+import type { PhoriaIsland } from "@phoria/phoria/server"
+import { renderWithStyledComponents } from "./server/ssr"
 
 async function renderPhoriaIsland(island: PhoriaIsland) {
 	if (isReactIsland(island)) {
@@ -10,7 +10,7 @@ async function renderPhoriaIsland(island: PhoriaIsland) {
 		})
 	}
 
-	return await island.render();
+	return await island.render()
 }
 
-export { renderPhoriaIsland };
+export { renderPhoriaIsland }

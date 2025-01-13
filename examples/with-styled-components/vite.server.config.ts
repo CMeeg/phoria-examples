@@ -1,9 +1,13 @@
+import { join } from "node:path"
 import { parsePhoriaAppSettings } from "@phoria/phoria/server"
 import { type UserConfig, defineConfig } from "vite"
 
 export default defineConfig(async () => {
 	const dotnetEnv = process.env.DOTNET_ENVIRONMENT ?? process.env.ASPNETCORE_ENVIRONMENT ?? "Development"
-	const appsettings = await parsePhoriaAppSettings({ environment: dotnetEnv })
+	const appsettings = await parsePhoriaAppSettings({
+		environment: dotnetEnv,
+		cwd: join(process.cwd(), "WebApp")
+	})
 
 	// https://vite.dev/config/
 	return {

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { styled, keyframes } from "styled-components"
+import { keyframes, styled } from "styled-components"
 import reactLogo from "/react.svg"
 
 interface CounterProps {
@@ -25,10 +25,10 @@ const Logo = styled.img`
 	}
 `
 
-const Button = styled.button<{ $count?: number; }>`
+const Button = styled.button<{ $count?: number }>`
 	display: block;
 	margin: auto;
-	opacity: ${({ $count }) => ($count ?? 0) % 2 === 0 ? "1" : "0.8"};
+	opacity: ${({ $count }) => (($count ?? 0) % 2 === 0 ? "1" : "0.8")};
 `
 
 function Counter({ startAt }: CounterProps) {

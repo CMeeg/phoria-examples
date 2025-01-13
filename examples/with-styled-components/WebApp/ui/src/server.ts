@@ -1,3 +1,5 @@
+import { dirname } from "node:path"
+import { fileURLToPath } from "node:url"
 import {
 	createPhoriaCsrRequestHandler,
 	createPhoriaDevCsrRequestHandler,
@@ -10,11 +12,14 @@ import { type ListenOptions, listen } from "listhen"
 
 // Get environment and appsettings
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
 const nodeEnv = process.env.NODE_ENV ?? "development"
 const isProduction = nodeEnv === "production"
 
 const dotnetEnv = process.env.DOTNET_ENVIRONMENT ?? process.env.ASPNETCORE_ENVIRONMENT ?? "Development"
-const appsettings = await parsePhoriaAppSettings({ environment: dotnetEnv })
+const appsettings = await parsePhoriaAppSettings({ environment: dotnetEnv, cwd: __dirname })
 
 // Create Vite dev server if not in production environment
 

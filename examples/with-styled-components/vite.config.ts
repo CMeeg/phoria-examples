@@ -10,10 +10,10 @@ export default defineConfig({
 	plugins: [
 		tsconfigPaths({
 			// The tsconfig is in the root of the project, not the "Vite root"
-			root: "../"
+			root: "../../"
 		}),
 		dotnetDevCerts(),
-		phoria(),
+		phoria({ cwd: "WebApp" }),
 		phoriaReact()
 	]
 })

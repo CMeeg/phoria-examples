@@ -15,7 +15,7 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"paths": {
-			"~/*": ["ui/src/*"]
+			"~/*": ["WebApp/ui/src/*"]
 		},
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
@@ -25,5 +25,5 @@
 		"useDefineForClassFields": true,
 		"verbatimModuleSyntax": true
 	},
-	"include": ["ui/src/**/*.ts", "ui/src/**/*.d.ts", "ui/src/**/*.tsx"]
+	"include": ["WebApp/ui/src/**/*.ts", "WebApp/ui/src/**/*.d.ts", "WebApp/ui/src/**/*.tsx"]
 }

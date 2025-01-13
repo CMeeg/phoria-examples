@@ -1,9 +1,5 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-	"files": {
-		"ignore": ["**/*.min.css", "**/*.min.css.map"],
-		"ignoreUnknown": false
-	},
 	"vcs": {
 		"enabled": true,
 		"clientKind": "git",
@@ -18,10 +14,6 @@
 	},
 	"formatter": {
 		"enabled": true,
-		"formatWithErrors": true,
-		"indentStyle": "tab",
-		"indentWidth": 2,
-		"lineEnding": "lf",
 		"lineWidth": 120,
 		"useEditorconfig": true
 	},
@@ -29,31 +21,28 @@
 		"enabled": true
 	},
 	"javascript": {
-		"linter": {
-			"enabled": true
-		},
 		"formatter": {
 			"enabled": true,
 			"semicolons": "asNeeded",
 			"trailingCommas": "none"
+		},
+		"linter": {
+			"enabled": true
 		}
 	},
 	"json": {
-		"linter": {
+		"formatter": {
 			"enabled": true
 		},
-		"formatter": {
+		"linter": {
 			"enabled": true
 		}
 	},
 	"css": {
-		"parser": {
-			"cssModules": true
-		},
-		"linter": {
+		"formatter": {
 			"enabled": true
 		},
-		"formatter": {
+		"linter": {
 			"enabled": true
 		}
 	}
