@@ -26,6 +26,10 @@
       "path": "examples/getting-started"
     },
     {
+      "name": "with-styled-components",
+      "path": "examples/with-styled-components"
+    },
+    {
       "name": "with-workspace",
       "path": "examples/with-workspace"
     }

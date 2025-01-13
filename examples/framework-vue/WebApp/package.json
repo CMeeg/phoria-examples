@@ -16,22 +16,22 @@
 		"preview:phoria": "cross-env NODE_ENV=production DOTNET_ENVIRONMENT=Preview node ./ui/dist/server/server.js"
 	},
 	"dependencies": {
-		"@phoria/phoria": "^0.3.1",
-		"@phoria/phoria-vue": "^0.2.1",
+		"@phoria/phoria": "^0.4.1",
+		"@phoria/phoria-vue": "^0.3.1",
 		"h3": "^1.13.0",
 		"listhen": "^1.9.0",
 		"vue": "^3.5.13"
 	},
 	"devDependencies": {
 		"@phoria/vite-plugin-dotnet-dev-certs": "0.2.0",
-		"@types/node": "^22.10.2",
+		"@types/node": "^22.10.5",
 		"@vitejs/plugin-vue": "^5.0.3",
 		"cross-env": "^7.0.3",
 		"npm-run-all": "^4.1.5",
-		"postcss-preset-env": "^10.1.2",
+		"postcss-preset-env": "^10.1.3",
 		"tsx": "^4.19.2",
-		"typescript": "~5.7.2",
-		"vite": "^6.0.3",
+		"typescript": "~5.7.3",
+		"vite": "^6.0.7",
 		"vite-tsconfig-paths": "^5.1.4"
 	},
 	"packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
