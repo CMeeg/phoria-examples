@@ -1,9 +1,0 @@
-{
-	"recommendations": [
-		"aaron-bond.better-comments",
-		"dbaeumer.vscode-eslint",
-		"EditorConfig.EditorConfig",
-		"esbenp.prettier-vscode",
-		"ms-dotnettools.csdevkit"
-	]
-}
