@@ -5,6 +5,6 @@ import { defineConfig } from "vite"
 import tsconfigPaths from "vite-tsconfig-paths"
 
 export default defineConfig({
-	publicDir: "public",
-	plugins: [tsconfigPaths({ root: "../../" }), dotnetDevCerts(), phoria({ cwd: "WebApp" }), phoriaReact()]
+  publicDir: "public",
+  plugins: [tsconfigPaths({ root: "../../" }), dotnetDevCerts(), phoria({ cwd: "WebApp" }), phoriaReact()]
 })
