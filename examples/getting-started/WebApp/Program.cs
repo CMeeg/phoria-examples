@@ -1,7 +1,24 @@
+using Microsoft.AspNetCore.ResponseCompression;
+using Phoria;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+
+builder.Services.AddResponseCompression(options =>
+{
+    options.EnableForHttps = true;
+    options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(["image/svg+xml"]);
+});
+
+var mvcBuilder = builder.Services.AddRazorPages();
+
+if (builder.Environment.IsDevelopment())
+{
+    mvcBuilder.AddRazorRuntimeCompilation();
+}
+
+builder.Services.AddPhoria();
 
 var app = builder.Build();
 
@@ -15,6 +32,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseResponseCompression();
+
 app.UseRouting();
 
 app.UseAuthorization();
@@ -22,5 +41,14 @@ app.UseAuthorization();
 app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
+
+if (app.Environment.IsDevelopment())
+{
+    // WebSockets support is required for Vite HMR (hot module reload)
+    app.UseWebSockets();
+}
+
+// The order of the Phoria middleware matters so we will place it last
+app.UsePhoria();
 
 app.Run();
