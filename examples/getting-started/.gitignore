@@ -21,3 +21,6 @@ obj/
 *.ntvs*
 *.njsproj
 *.sw?
+
+# azd
+.azure

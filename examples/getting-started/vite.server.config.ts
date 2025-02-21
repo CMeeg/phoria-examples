@@ -1,14 +1,14 @@
-import { parsePhoriaAppSettings } from "@phoria/phoria/server";
-import { type UserConfig, defineConfig } from "vite";
+import { join } from "node:path"
+import { parsePhoriaAppSettings } from "@phoria/phoria/server"
+import { type UserConfig, defineConfig } from "vite"
 
 export default defineConfig(async () => {
-  const dotnetEnv =
-    process.env.DOTNET_ENVIRONMENT ??
-    process.env.ASPNETCORE_ENVIRONMENT ??
-    "Development";
-  const appsettings = await parsePhoriaAppSettings({ environment: dotnetEnv });
+  const dotnetEnv = process.env.DOTNET_ENVIRONMENT ?? process.env.ASPNETCORE_ENVIRONMENT ?? "Development"
+  const appsettings = await parsePhoriaAppSettings({
+    environment: dotnetEnv,
+    cwd: join(process.cwd(), "WebApp")
+  })
 
-  // https://vite.dev/config/
   return {
     root: appsettings.root,
     base: appsettings.base,
@@ -19,8 +19,8 @@ export default defineConfig(async () => {
       emptyOutDir: true,
       outDir: `${appsettings.build.outDir}/server`,
       rollupOptions: {
-        input: `${appsettings.root}/src/server.ts`,
-      },
+        input: `${appsettings.root}/src/server.ts`
+      }
     }
-  } satisfies UserConfig;
-});
+  } satisfies UserConfig
+})

@@ -35,6 +35,11 @@
     }
   ],
   "settings": {
+    "cSpell.words": [
+      "cmeeg",
+      "giget",
+      "Phoria"
+    ],
     "files.exclude": {
       "examples/": true
     }
