@@ -1,0 +1,39 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "run-p build:* -c",
+    "build:islands": "vite build --app",
+    "build:webapp": "dotnet build --configuration Release",
+    "build:server": "vite build --config vite.server.config.ts",
+    "check": "tsc",
+    "dev": "tsx ./WebApp/ui/src/server.ts",
+    "lint": "biome check",
+    "preview": "run-p preview:* -c",
+    "preview:webapp": "cross-env DOTNET_ENVIRONMENT=Preview dotnet run --project ./WebApp/WebApp.csproj -c Release --launch-profile Preview",
+    "preview:server": "cross-env NODE_ENV=production DOTNET_ENVIRONMENT=Preview node ./WebApp/ui/dist/server/server.js"
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "dependencies": {
+    "@phoria/phoria": "^0.4.2",
+    "@phoria/phoria-svelte": "^0.3.2",
+    "h3": "^1.15.1",
+    "listhen": "^1.9.0",
+    "svelte": "^5.20.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@phoria/vite-plugin-dotnet-dev-certs": "^0.2.1",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@types/node": "^22.13.5",
+    "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-preset-env": "^10.1.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

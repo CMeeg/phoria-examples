@@ -3,25 +3,25 @@ import reactLogo from "/react.svg"
 import css from "./Counter.module.css"
 
 interface CounterProps {
-	startAt?: number
+  startAt?: number
 }
 
 function Counter({ startAt }: CounterProps) {
-	const [count, setCount] = useState(startAt ?? 0)
+  const [count, setCount] = useState(startAt ?? 0)
 
-	return (
-		<div className={`react-counter ${css.counter}`}>
-			<a href="https://react.dev" target="_blank" rel="noreferrer">
-				<img src={reactLogo} className="logo react" alt="React logo" />
-			</a>
-			<button type="button" onClick={() => setCount((count) => count + 1)}>
-				count is {count}
-			</button>
-			<p>
-				Edit <code>ui/src/components/Counter/Counter.tsx</code> to test HMR
-			</p>
-		</div>
-	)
+  return (
+    <div className={`react-counter ${css.counter}`}>
+      <a href="https://react.dev" target="_blank" rel="noreferrer">
+        <img src={reactLogo} className="logo react" alt="React logo" />
+      </a>
+      <button type="button" onClick={() => setCount((count) => count + 1)}>
+        count is {count}
+      </button>
+      <p>
+        Edit <code>ui/src/components/Counter/Counter.tsx</code> to test HMR
+      </p>
+    </div>
+  )
 }
 
 export { Counter }

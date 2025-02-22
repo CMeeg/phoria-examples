@@ -1,8 +1,8 @@
 {
-	"recommendations": [
-		"aaron-bond.better-comments",
-		"biomejs.biome",
-		"EditorConfig.EditorConfig",
-		"ms-dotnettools.csdevkit"
-	]
+  "recommendations": [
+    "biomejs.biome",
+    "DotJoshJohnson.xml",
+    "EditorConfig.EditorConfig",
+    "ms-dotnettools.csdevkit"
+  ]
 }
