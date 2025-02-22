@@ -1,8 +1,8 @@
 import { registerComponents } from "@phoria/phoria"
 
 registerComponents({
-	Counter: {
-		loader: () => import("./Counter/Counter.vue"),
-		framework: "vue"
-	}
+  Counter: {
+    loader: () => import("./Counter/Counter.vue"),
+    framework: "vue"
+  }
 })

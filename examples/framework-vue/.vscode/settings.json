@@ -1,13 +1,16 @@
 {
-	"editor.defaultFormatter": "biomejs.biome",
-	"html.format.extraLiners": "",
-	"[aspnetcorerazor]": {
-		"editor.defaultFormatter": "ms-dotnettools.csharp"
-	},
-	"[csharp]": {
-		"editor.defaultFormatter": "ms-dotnettools.csharp"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	}
+  "editor.defaultFormatter": "biomejs.biome",
+  "html.format.extraLiners": "",
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  }
 }
