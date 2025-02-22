@@ -1,15 +1,15 @@
 {
-	"name": "with-workspace",
-	"private": true,
-	"version": "0.0.0",
-	"type": "module",
-	"scripts": {
-		"lerna": "lerna",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
-		"lerna": "^8.1.9"
-	},
-	"packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+  "name": "with-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lerna": "lerna",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "lerna": "^8.2.0"
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }
