@@ -1,9 +1,9 @@
 {
-	"recommendations": [
-		"aaron-bond.better-comments",
-		"biomejs.biome",
-		"EditorConfig.EditorConfig",
-		"ms-dotnettools.csdevkit",
-		"svelte.svelte-vscode"
-	]
+  "recommendations": [
+    "biomejs.biome",
+    "DotJoshJohnson.xml",
+    "EditorConfig.EditorConfig",
+    "ms-dotnettools.csdevkit",
+    "svelte.svelte-vscode"
+  ]
 }
