@@ -1,6 +1,6 @@
 # Multiple UI frameworks example
 
-This example demonstrates how to use multiple UI frameworks in a single project.
+This example demonstrates how to use multiple UI frameworks in a single Phoria project.
 
 You can use this example as a template for your own project by running:
 
