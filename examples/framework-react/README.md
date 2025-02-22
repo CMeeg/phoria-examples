@@ -1,4 +1,4 @@
-# React framework example
+# React islands example
 
 This example demonstrates how to use React in your Phoria project.
 
