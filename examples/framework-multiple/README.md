@@ -14,6 +14,9 @@ npx giget@latest gh:cmeeg/phoria-examples/examples/framework-multiple <target_di
 
 ## Usage
 
+> [!NOTE]
+> See the [Phoria docs](https://github.com/CMeeg/phoria#usage) for general usage information.
+
 Once cloned you will need to install the dependencies:
 
 ```shell

@@ -20,6 +20,9 @@ To enable server side rendering of Styled Components Phoria's [Server Entry](./W
 
 ## Usage
 
+> [!NOTE]
+> See the [Phoria docs](https://github.com/CMeeg/phoria#usage) for general usage information.
+
 Once cloned you will need to install the dependencies:
 
 ```shell

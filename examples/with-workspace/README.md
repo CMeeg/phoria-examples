@@ -20,6 +20,9 @@ It should be possible to use other workspace and task runner tools should you pr
 
 ## Usage
 
+> [!NOTE]
+> See the [Phoria docs](https://github.com/CMeeg/phoria#usage) for general usage information.
+
 Once cloned you will need to install the dependencies:
 
 ```shell
