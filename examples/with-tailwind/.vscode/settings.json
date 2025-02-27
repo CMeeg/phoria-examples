@@ -1,4 +1,5 @@
 {
+  "css.validate": false,
   "editor.defaultFormatter": "biomejs.biome",
   "html.format.extraLiners": "",
   "[aspnetcorerazor]": {

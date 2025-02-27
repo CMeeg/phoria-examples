@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
     "DotJoshJohnson.xml",
     "EditorConfig.EditorConfig",
     "ms-dotnettools.csdevkit"
