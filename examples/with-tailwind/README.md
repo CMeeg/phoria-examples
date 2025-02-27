@@ -14,7 +14,14 @@ npx giget@latest gh:cmeeg/phoria-examples/examples/with-tailwind <target_dir>
 
 ## Tailwind
 
-This example uses [Tailwind](https://tailwindcss.com/) v4 to style the Phoria Web App.
+This example uses [Tailwind](https://tailwindcss.com/) v4:
+
+* Tailwind is added via the [official Vite plugin](https://tailwindcss.com/docs/installation/using-vite)
+* Tailwind is configured in `WebApp/ui/src/styles/global.css`
+  * [Source files are configured](https://tailwindcss.com/docs/detecting-classes-in-source-files#setting-your-base-path) here so that Tailwind finds classes in the Phoria (dotnet) Web App as well as Phoria Island (React) components
+  * React is used in this example, but you can use any other UI framework supported by Phoria and Tailwind
+* `global.css` is imported in Phoria's Client Entry `WebApp/ui/src/entry-client.ts`
+  * This ensures that Vite takes care of HMR for Tailwind in dev, and bundling the CSS for prod
 
 ## Usage
 
