@@ -30,6 +30,10 @@
       "path": "examples/with-styled-components"
     },
     {
+      "name": "with-tailwind",
+      "path": "examples/with-tailwind"
+    },
+    {
       "name": "with-workspace",
       "path": "examples/with-workspace"
     }
