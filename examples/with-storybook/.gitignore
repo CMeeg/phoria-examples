@@ -21,3 +21,5 @@ obj/
 *.ntvs*
 *.njsproj
 *.sw?
+
+*storybook.log

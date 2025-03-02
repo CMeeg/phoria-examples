@@ -26,6 +26,8 @@
     "verbatimModuleSyntax": true
   },
   "include": [
+    ".storybook/**/*.ts",
+    ".storybook/**/*.tsx",
     "WebApp/ui/src/**/*.ts",
     "WebApp/ui/src/**/*.d.ts",
     "WebApp/ui/src/**/*.tsx"

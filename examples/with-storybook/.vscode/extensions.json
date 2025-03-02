@@ -3,6 +3,7 @@
     "biomejs.biome",
     "DotJoshJohnson.xml",
     "EditorConfig.EditorConfig",
-    "ms-dotnettools.csdevkit"
+    "ms-dotnettools.csdevkit",
+    "vitest.explorer"
   ]
 }
