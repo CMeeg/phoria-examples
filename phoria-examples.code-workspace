@@ -26,6 +26,10 @@
       "path": "examples/getting-started"
     },
     {
+      "name": "with-storybook",
+      "path": "examples/with-storybook"
+    },
+    {
       "name": "with-styled-components",
       "path": "examples/with-styled-components"
     },
