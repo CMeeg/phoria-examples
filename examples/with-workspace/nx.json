@@ -4,6 +4,10 @@
       "cache": true,
       "dependsOn": ["^build"]
     },
+    "build:islands": {
+      "cache": true,
+      "dependsOn": ["^build:islands"]
+    },
     "check": {
       "cache": true,
       "dependsOn": ["^build"]

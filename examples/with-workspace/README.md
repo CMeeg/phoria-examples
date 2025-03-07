@@ -16,7 +16,17 @@ npx giget@latest gh:cmeeg/phoria-examples/examples/with-workspace <target_dir>
 
 This example project uses a [pnpm workspace](https://pnpm.io/workspaces) to manage dependencies and [Lerna](https://lerna.js.org/) as a task runner.
 
-It should be possible to use other workspace and task runner tools should you prefer.
+> [!NOTE]
+> It should be possible to use other workspace and task runner tools should you prefer.
+
+The workspace includes two "packages":
+
+* `@phoriaexamples/ui` - A simple React component library
+* `@phoriaexamples/WebApp` - A dotnet Razor Pages web app configured to use Phoria Islands
+
+The `WebApp` package includes a `Counter` component that uses the `Counter` component in the `ui` package.
+
+Both packages use Vite in dev for HMR and Vite to build for production.
 
 ## Usage
 
